@@ -85,7 +85,6 @@ li {
   margin: 0;
   color: #0b0223;
   text-align: center;
-  font-family: Work Sans;
   font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
@@ -103,6 +102,165 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.goat-img {
-  
+.buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.btn1 {
+  background-color: #f948b2;
+  border: none;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 48px;
+}
+
+.btn2 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 48px;
+  background: #4ec5f7;
+}
+
+/* this is online games section */
+
+.online-games-title {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+
+.funny-videos {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.online-games-caption {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 4fr, 1fr;
+}
+
+/* This is play instantly section */
+
+.no-downloads-title {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.play-instantly {
+  background: #f948b2;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-instantly-caption {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.play-instantly-img {
+  width: 80%;
+}
+
+.play-instantly-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+.knight {
+  position: relative;
+}
+
+.talking-tom {
+  position: position;
+  top: 400px;
+  right: 150px;
+}
+
+/* this is all games buttons section */
+
+.all-games-buttons-container {
+  /* display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 4fr);
+  column-gap: 5px; */
+}
+
+.first-row-buttons,
+.second-row-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+/* This is footer section */
+
+footer {
+  background-color: #0b0223;
+  width: 100%;
+  height: 536px;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4f2f8;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0px; 
+}
+
+.footer-buttons {
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-family: Work Sans;
+  font-size: 15px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
 }
