@@ -1,0 +1,68 @@
+/* <---------- 🚩 NAVBAR STYLES 💭 ----------> */
+
+.logo-text {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 25px 0 25px 0;
+  padding-right: 200px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-container img {
+  width: 86px;
+  height: 38px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-group > a {
+  margin-top: 4px;
+}
+
+.nav-text {
+  color: #3c354f;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.follow-us {
+  padding: 8px 10px 8px 20px;
+  background: #d6d4da;
+  border-radius: 8px;
+  color: #3c354f;
+}
