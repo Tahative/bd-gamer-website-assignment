@@ -22,10 +22,22 @@ body {
   font-weight: 700;
   margin: 20px;
 }
-.logo-container {
+
+.nav-container{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+@media screen and (max-width: 576) {
+  .nav-container{
+    flex-direction: column;
+  }
 }
 .logo-container img {
   width: 86.041px;
@@ -202,6 +214,7 @@ li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  background: url(images/bg.png);
 }
 .play-instantly-img {
   position: relative;
@@ -213,8 +226,8 @@ li {
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
 }
-.knight {
-}
+/* .knight {
+} */
 
 .talking-tom {
   position: absolute;
