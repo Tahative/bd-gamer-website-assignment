@@ -6,10 +6,15 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.footer-li {
+  margin: 0 60px 0 00;
+}
+
 .g {
   color: #ff42a5;
 }
 
+/* This is nav section */
 .gamer {
   color: #0b0223;
   font-family: Work Sans;
@@ -56,7 +61,9 @@ li {
   width: 262px;
   height: 56px;
   color: #3c354f;
-  text-align: center;
+
+  align-items: center;
+
   font-family: Work Sans;
   font-size: 18px;
 }
@@ -135,6 +142,14 @@ li {
 
 /* this is online games section */
 
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50%;
+}
+
 .online-games-title {
   color: #0b0223;
   text-align: center;
@@ -165,11 +180,6 @@ li {
   margin-top: 18px;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: 4fr, 1fr;
-}
-
 /* This is play instantly section */
 
 .no-downloads-title {
@@ -194,7 +204,7 @@ li {
   font-weight: 400;
 }
 .play-instantly-img {
-  width: 80%;
+  position: relative;
 }
 
 .play-instantly-container {
@@ -204,36 +214,39 @@ li {
   column-gap: 5px;
 }
 .knight {
-  position: relative;
 }
 
 .talking-tom {
-  position: position;
-  top: 400px;
-  right: 150px;
+  position: absolute;
+  top: 360px;
+  right: 490px;
 }
 
 /* this is all games buttons section */
 
-.all-games-buttons-container {
-  /* display: grid;
+.btn {
+  display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 4fr);
-  column-gap: 5px; */
+  border-radius: 50px;
+  background: #c44e4e;
+  border: none;
+  text-align: center;
+  align-items: center;
+  gap: 0;
+  padding: 0;
 }
 
 .first-row-buttons,
 .second-row-buttons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
-.btn {
-  border-radius: 50px;
-  background: #fff;
-  border: none;
-  text-align: center;
-  align-items: center;
+.second-row-buttons {
+  margin: 20px 0;
 }
 
 /* This is footer section */
@@ -241,26 +254,58 @@ li {
 footer {
   background-color: #0b0223;
   width: 100%;
-  height: 536px;
+  height: 500px;
 }
 
 .footer-title {
   display: flex;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   color: #f4f2f8;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 0px; 
+  font-size: 30px;
+  font-weight: 500;
+
+  padding-top: 60px;
 }
 
-.footer-buttons {
+.footer-nav-buttons {
   color: #fff;
   text-align: center;
   align-items: center;
   font-family: Work Sans;
   font-size: 15px;
-  margin: 0;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
+
+  padding: 0;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 0;
+  height: auto;
+  width: 100%;
+}
+
+.terms-and-policy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 60px; */
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  
 }
